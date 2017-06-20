@@ -27,8 +27,8 @@ h1 {
 
 #rotating-item-wrapper {
     position: relative;
-    width: 980px;
-    height: 347px;
+    width: 851px;
+    height: 490px;    
 }
 .rotating-item {
     display: none;
