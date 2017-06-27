@@ -28,7 +28,8 @@ h1 {
 #rotating-item-wrapper {
     position: relative;
     width: 851px;
-    height: 490px;    
+    height: 490px;
+    margin: 0 auto;    
 }
 .rotating-item {
     display: none;
@@ -222,7 +223,6 @@ a:active {
   }
 
   .main-header {
-    max-height: 380px;
     padding: 50px 25px 0;  
   }
   
