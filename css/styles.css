@@ -14,7 +14,9 @@ h2 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
-
+.list-header {
+  font-size: 1.7rem;
+}
 
 h1 {  
   font-size: 3rem; /* 90px/16px  */
@@ -72,20 +74,20 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(255, 169, 73);
+  color: #444951;
   text-decoration: none;
 }
 
 a:visited {
-  color: lightblue;
+  color: black;
 }
 
 a:hover {
-  color: rgba(255, 169, 73, .4);
+  color: grey;
 }
 
 a:active {
-  color: lightcoral;
+  color: steelblue;
 }
 
 /* Main Styles --------------------- */
@@ -94,9 +96,9 @@ a:active {
   padding-top: 170px;
   height: 850px;
   
-  background: linear-gradient(#ffa949,transparent 90%),
+  background: linear-gradient(#0340a0,transparent 90%),
               linear-gradient(0deg,#fff,transparent),
-              #ffa949 url('../img/mountains.jpg') no-repeat center;
+              #1c61ce;
   background-size: cover;
   
 }
@@ -143,7 +145,7 @@ a:active {
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+  border-bottom: 10px solid #525b68;
 }
 
 .t-border {
@@ -165,18 +167,14 @@ a:active {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #ffa949;
+  border-top: 10px solid #525b68;
   margin: 105px 0 60px;
-  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background: #434a52;
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
   border-radius: 10px;
 }
 
-.arrow {
-  width: 50px;
-  margin-top: 150px;
-}
 
 /* Floated Columns ------------------ */
 
