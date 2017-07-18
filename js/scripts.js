@@ -1,3 +1,6 @@
+// This code runs the picture carousel on the main page
+
+
 $(window).load(function() { //start after HTML, images have loaded
  
     var InfiniteRotator =
