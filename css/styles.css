@@ -14,9 +14,8 @@ h2 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
-.list-header {
-  font-size: 1.7rem;
-}
+
+
 
 h1 {  
   font-size: 3rem; /* 90px/16px  */
@@ -55,6 +54,11 @@ h3 {
   color: #48525c;
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
+}
+
+.pictext {
+  font-size: 1em;
+  
 }
 
 img {
@@ -96,12 +100,16 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  
   background: linear-gradient(#0340a0,transparent 90%),
               linear-gradient(0deg,#fff,transparent),
               #1c61ce;
   background-size: cover;
   
+}
+
+.list-header {
+  font-size: 1.1rem;
+  height: 450px;
 }
 
 .title {
@@ -255,6 +263,11 @@ a:active {
 }
 
 @media (max-width: 768px) {
+  
+  .primary-content{
+    margin-top: 100px;
+  }
+  
   .primary-content,
   .secondary-content {
     width: 100%;
@@ -297,4 +310,12 @@ a:active {
   .main-footer {
     padding: 20px 0;
   }
+}
+
+@media (max-width: 500px) {
+
+.primary-content {
+  margin-top: 150px;
+}
+
 }
