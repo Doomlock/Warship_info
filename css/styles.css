@@ -245,6 +245,28 @@ a:active {
   clear: both;
 }
 
+/*Lightbox styles  */
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+ margin-top: 10%; 
+}
+
+#overlay p {
+ color:white; 
+}
+
+
+
 /* Media Queries -------------------- */
 
 @media (max-width: 1024px) {
